@@ -33,9 +33,11 @@ How to Use
 ----------
 
 --Copy
+
 ----Copy files under extension folder
 
 --Configuration
+
 ----config/main.php
 
     // application components
@@ -86,6 +88,7 @@ How to Use
 --Usage
 
 ----Create a service
+
         $service = Yii::app()->JGoogleAPI->getService('Drive');
         
         or
@@ -94,6 +97,7 @@ How to Use
         if the authentication type is diferent of the default
 
 ----Create a object
+
         $file = Yii::app()->JGoogleAPI->getObject('DriveFile','Drive');
         we pass the object name that we want to create and the service where it belongs
         
@@ -103,8 +107,9 @@ How to Use
         if the authentication type is different of the default
         
         
-----If you choose webappAPI you need aditional steps, because you need to save the token from
+----If you choose 'webappAPI' authentication method you need aditional steps, because you need to save the token from
     the authenticate method
+    
         API Ex: http://code.google.com/p/google-api-php-client/
     
         Ex:
