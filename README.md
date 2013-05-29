@@ -12,7 +12,7 @@ Author
 
 Version
 -------
-0.1 Initial Release
+0.2.0
 
 
 Requirements
@@ -25,7 +25,7 @@ PHP >= 5.3
 Resources
 ---------
 
-This extension uses google-api-php-lib-0.6
+This extension uses google-api-php-lib-0.6 - Version 0.6.2
 http://code.google.com/p/google-api-php-client/
 
 
@@ -149,6 +149,11 @@ How to Use
             throw $exc;
         }
  
+
+CHANGELOG
+---------
+0.1   - Initial Release
+0.2.0 - Update to google-api-client-php version 0.6.2
 
 TODO
 ----
